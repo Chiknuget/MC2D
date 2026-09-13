@@ -16,7 +16,7 @@ namespace {
 Game::Game()
     : world(), player(ComputeSpawnPosition())
 {
-    InitWindow(Constants::ScreenWidth, Constants::ScreenHeight, "2D Minecraft-like - Step 3: Player + Collision");
+    InitWindow(Constants::ScreenWidth, Constants::ScreenHeight, "MC2D, Alpha 0.1");
     SetTargetFPS(60);
 
     camera.offset = { (float)Constants::ScreenWidth / 2.0f, (float)Constants::ScreenHeight / 2.0f };
